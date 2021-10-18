@@ -4,7 +4,7 @@ import notfoundImg from '../../images/404.svg';
 
 const NotFound = () => {
     return (
-        <div className="text-center">
+        <div className="text-center mt-5">
             <h2>Oops! Page Not Found.</h2>
             <img className='perfect-img' src={notfoundImg} alt="" /> <br />
             <Link to="/">
