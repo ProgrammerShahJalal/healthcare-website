@@ -1,6 +1,9 @@
+.bg-health{
+    background-color: rgb(1, 1, 39);
+}
 .logo{
     width: 45px;
 }
 .highlight{
-    color: #D35DFF;
+    color: #ab0ae6;
 }
