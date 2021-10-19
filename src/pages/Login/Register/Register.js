@@ -1,8 +1,12 @@
+import { createUserWithEmailAndPassword, getAuth } from '@firebase/auth';
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import useAuth from '../../../hooks/useAuth';
 
 
 const Register = () => {
+    const auth = getAuth();
+    const { signInUsingGoogle } = useAuth();
 
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
@@ -14,8 +18,13 @@ const Register = () => {
         setPassword(e.target.value);
     }
     const handleRegistration = e => {
-        e.preventDefault()
         console.log(email, password);
+        createUserWithEmailAndPassword(auth, email, password)
+            .then(result => {
+                const user = result.user;
+                console.log(user)
+            })
+        e.preventDefault()
     }
     return (
         <div className="text-center mt-5 py-5">
@@ -37,7 +46,7 @@ const Register = () => {
                 Or,
                 <br />
                 <br />
-                <button className="service-btn">Google Sign In</button>
+                <button onClick={signInUsingGoogle} className="service-btn">Google Sign In</button>
             </div>
         </div>
     );
