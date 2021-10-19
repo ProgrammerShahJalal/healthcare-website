@@ -1,7 +1,36 @@
 .perfect-img{
     width: 520px;
 }
-
+.service-title{
+    text-align: center;
+}
+.service-paragraph{
+    text-align: justify;
+}
+.service-btn{
+    color: white;
+    padding: 10px 35px;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    background-color: darkblue;
+}
+.service-btn:hover{
+    background-color: #BB49FF;
+    transition: 1s;
+}
+.submit-btn{
+    color: white;
+    padding: 10px 45px;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    background-color: #BB49FF;
+}
+.submit-btn:hover{
+    background-color: darkblue;
+    transition: 1s;
+}
 
 /* gradient button css */
 .btn-grad {background-image: linear-gradient(to right, #DA22FF 0%, #9733EE  51%, #DA22FF  100%)}

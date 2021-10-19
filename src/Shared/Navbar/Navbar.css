@@ -1,9 +1,19 @@
 .bg-health{
-    background-color: rgb(1, 1, 39);
+    background-color: rgba(0, 119, 255, 0.692);
 }
 .logo{
     width: 45px;
 }
 .highlight{
     color: #ab0ae6;
+}
+.profile{
+    width: 30px;
+}
+.logout-btn{
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    background-color: darkblue;
 }

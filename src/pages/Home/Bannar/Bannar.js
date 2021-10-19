@@ -25,7 +25,7 @@ const Bannar = () => {
                 />
 
                 <Carousel.Caption className="position-absolute start-0 end-50 top-50">
-                    <h3 className='h1'>We Provide <br /> Best Healthcare</h3>
+                    <h3 className='h1'>We Provide <br /> Best <span className="highlight">Health</span>care</h3>
                     <p>The other name of health is wealth. <br /> So don't give up caring your health.</p>
                 </Carousel.Caption>
             </Carousel.Item>
@@ -37,7 +37,7 @@ const Bannar = () => {
                 />
 
                 <Carousel.Caption className="position-absolute start-50 end-0 bottom-50">
-                    <h3 className="h1">Better Health,<br /> Better Life</h3>
+                    <h3 className="h1">Better <span className="highlight">Health</span>,<br /> Better Life</h3>
                     <p>Take fresh food and <br /> keep your health fit.</p>
                 </Carousel.Caption>
             </Carousel.Item>

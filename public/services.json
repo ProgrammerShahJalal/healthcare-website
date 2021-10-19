@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "name": "General Surgery",
+        "img": "https://i.ibb.co/PrpMvTX/general-surgery.jpg",
+        "description": "General  Surgery is a discipline of surgery having a central core of knowledge embracing anatomy, physiology, metabolism, immunology, nutrition, pathology, wound healing, shock and resuscitation, intensive care, and neoplasia, which are common to all surgical specialties."
+    },
+    {
+        "id": 2,
+        "name": "Eye Check Up",
+        "img": "https://i.ibb.co/rpY7yP1/eye-protection.jpg",
+        "description": "Three main types of eye protection exist, each with advantages and disadvantages. They are safety glasses, goggles, and face shields. Safety Glasses: Safety glasses have shatter-resistant lenses made of materials like polycarbonate or propionate plastic with side shields."
+    },
+    {
+        "id": 3,
+        "name": "Primary Care",
+        "img": "https://i.ibb.co/54Xy81R/primary-care.jpg",
+        "description": "Primary healthcare is the provision of health services, including diagnosis and treatment of a health condition, and support in managing long-term healthcare, including chronic conditions like diabetes. This is the important part for health."
+    },
+    {
+        "id": 4,
+        "name": "Cardiology",
+        "img": "https://i.ibb.co/hs2D71M/cardiology.jpg",
+        "description": "Cardiology is the study and treatment of disorders of the heart and the blood vessels. A person with heart disease or cardiovascular disease may be referred to a cardiologist. Cardiology is a branch of internal medicine. A cardiologist specializes in diagnosing and treating diseases."
+    },
+    {
+        "id": 5,
+        "name": "Neurology",
+        "img": "https://i.ibb.co/syj2hCk/nuerology.jpg",
+        "description": "Neurology is a branch of medicine dealing with disorders of the nervous system. Neurology deals with the diagnosis and treatment of all categories of conditions and disease involving the central and peripheral nervous systems, including their coverings, blood vessels, and all effector tissue."
+    },
+    {
+        "id": 6,
+        "name": "Dermatology",
+        "img": "https://i.ibb.co/108JhS6/dermatology.jpg",
+        "description": "Dermatology is the branch of medicine dealing with the skin. It is a speciality with both medical and surgical aspects. A dermatologist is a specialist medical doctor who manages diseases related to skin, hair, nails, and some cosmetic problems."
+    },
+    {
+        "id": 7,
+        "name": "Precise Diagnosis",
+        "img": "https://i.ibb.co/mcLKTJf/Precision-diagnosis.jpg",
+        "description": "Precision diagnosis is the accurate and timely explanation of each patient's health problem and further requires communication of that explanation to patients and surrogate decision-makers. Both accuracy and timeliness are essential to critical care, yet computed decision."
+    },
+    {
+        "id": 8,
+        "name": "Emergency Clinic",
+        "img": "https://i.ibb.co/B330jw8/emergency-clinic.jpg",
+        "description": "An emergency department, also known as an accident & emergency department, emergency room, emergency ward or casualty department, is a medical treatment facility specializing in emergency medicine, the acute care of patients who present without prior appointment."
+    },
+    {
+        "id": 9,
+        "name": "Dr Consultation",
+        "img": "https://i.ibb.co/D7Qr6v0/doctor-consultation-1.jpg",
+        "description": "Consultation is the act of seeking assistance from another physician(s) or health care professional(s) for diagnostic studies, therapeutic interventions, or other services that may benefit the patient. Either by their own means or by that of an ambulance."
+    }
+]

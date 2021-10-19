@@ -2,8 +2,10 @@ import React from 'react';
 import './Navbar.css';
 import { Link } from 'react-router-dom';
 import logo from '../../images/logo.png';
+import useAuth from '../../hooks/useAuth';
 
 const Navbar = () => {
+  const { user, logout } = useAuth();
   return (
     <div>
       <nav className="navbar navbar-expand-lg navbar-light bg-health fixed-top">
@@ -24,6 +26,15 @@ const Navbar = () => {
               <li className="nav-item">
                 <Link to='/contact' className="nav-link active text-white" aria-current="page">Contact Us</Link>
               </li>
+              {
+                user.email ?
+                  <div className="mt-2 ms-5 text-white"> <img className='profile' src={user.photoURL} alt="" /> Welcome <span>{user.displayName}</span> <button className="logout-btn" onClick={logout}>Logout</button>
+                  </div>
+                  :
+                  <li className="nav-item">
+                    <Link to='/login' className="nav-link active text-white" aria-current="page">Login</Link>
+                  </li>
+              }
             </ul>
           </div>
         </div>
