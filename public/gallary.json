@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "name": "General Surgery",
+        "img": "https://i.ibb.co/PrpMvTX/general-surgery.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Eye Check Up",
+        "img": "https://i.ibb.co/rpY7yP1/eye-protection.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Primary Care",
+        "img": "https://i.ibb.co/54Xy81R/primary-care.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Cardiology",
+        "img": "https://i.ibb.co/hs2D71M/cardiology.jpg"
+    },
+    {
+        "id": 5,
+        "img": "https://i.ibb.co/syj2hCk/nuerology.jpg"
+    },
+    {
+        "id": 6,
+        "img": "https://i.ibb.co/108JhS6/dermatology.jpg"
+    },
+    {
+        "id": 7,
+        "img": "https://i.ibb.co/mcLKTJf/Precision-diagnosis.jpg"
+    },
+    {
+        "id": 8,
+        "img": "https://i.ibb.co/B330jw8/emergency-clinic.jpg"
+    },
+    {
+        "id": 9,
+        "img": "https://i.ibb.co/D7Qr6v0/doctor-consultation-1.jpg"
+    }
+]

@@ -26,6 +26,9 @@ const Navbar = () => {
               <li className="nav-item">
                 <Link to='/contact' className="nav-link active text-white" aria-current="page">Contact Us</Link>
               </li>
+              <li className="nav-item">
+                <Link to='/gallary' className="nav-link active text-white" aria-current="page">Gallary</Link>
+              </li>
               {
                 user.email ?
                   <div className="mt-2 ms-5 text-white"> <img className='profile' src={user.photoURL} alt="" /> Welcome <span>{user.displayName}</span> <button className="logout-btn" onClick={logout}>Logout</button>
