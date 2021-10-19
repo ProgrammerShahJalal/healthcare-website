@@ -15,7 +15,7 @@ const Gallary = () => {
                 <div className="text-center">
                     <h1>Our Gallary</h1>
                 </div>
-                <div className="row d-flex justify-content-center align-items-center">
+                <div className="row d-flex flex-column flex-lg-row flex-md-row justify-content-center align-items-center">
                     {
                         images.map(image => <Image key={image.id} image={image}></Image>)
                     }

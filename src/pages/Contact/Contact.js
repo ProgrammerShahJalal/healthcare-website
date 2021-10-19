@@ -9,10 +9,10 @@ const Contact = () => {
     const onSubmit = data => console.log(data);
 
     return (
-        <div className='contact-us mt-5 py-5'>
+        <div className='contact-us mt-5 py-5 container'>
             <h1 className="text-center">Contact Us</h1>
-            <div className="row">
-                <div className="col-md-6">
+            <div className="row d-flex  flex-column flex-lg-row flex-md-row">
+                <div className=" col-md-4">
                     <form className="contact-form" onSubmit={handleSubmit(onSubmit)}>
                         <input defaultValue={user.displayName} {...register("name", { required: true })} />
                         <input placeholder="Your Email" defaultValue={user.email} {...register("email", { required: true })} />
@@ -22,7 +22,8 @@ const Contact = () => {
                         <input type="submit" />
                     </form>
                 </div>
-                <div className="col-md-6"></div>
+                <div className="col-md-4"></div>
+                <div className="col-md-4"></div>
             </div>
         </div>
     );
