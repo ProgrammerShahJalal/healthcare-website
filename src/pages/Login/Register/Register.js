@@ -10,6 +10,7 @@ const Register = () => {
 
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
+    const [error, setError] = useState('');
 
     const handleEmailChange = e => {
         setEmail(e.target.value);
@@ -18,11 +19,14 @@ const Register = () => {
         setPassword(e.target.value);
     }
     const handleRegistration = e => {
-        console.log(email, password);
+        console.log(email, password, error);
         createUserWithEmailAndPassword(auth, email, password)
             .then(result => {
                 const user = result.user;
                 console.log(user)
+            })
+            .catch(error => {
+                setError(error.message)
             })
         e.preventDefault()
     }
