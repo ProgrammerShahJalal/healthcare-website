@@ -3,14 +3,14 @@
 The live site link: https://healthcare-website-1f6e3.web.app/
 
 ## What I do in this project
-<blockquote> Programming Technology</blockquote>
+<b><blockquote> Programming Technology</blockquote></b>
 <li>HTML</li>
 <li>CSS</li>
 <li>JavaScript</li>
 <li>React Bootstrap</li>
 <li>React Router</li>
-
-<blockquote> Some Features</blockquote>
+<br/>
+<b><blockquote> Some Features</blockquote></b>
 <li>React Hook Form</li>
 <li>Dynamic Route</li>
 <li>Private Route</li>
