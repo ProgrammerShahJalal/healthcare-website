@@ -7,7 +7,7 @@ const Bannar = () => {
         <Carousel variant="dark">
             <Carousel.Item>
                 <img
-                    className="d-block w-100"
+                    className="d-block img-fluid"
                     src="https://i.ibb.co/wyVGzD9/healthcare-slide1.jpg"
                     alt="First slide"
                 />
@@ -19,19 +19,19 @@ const Bannar = () => {
             </Carousel.Item>
             <Carousel.Item>
                 <img
-                    className="d-block w-100"
+                    className="d-block img-fluid"
                     src="https://i.ibb.co/1qNVXBJ/healthcare-slide-2.jpg"
                     alt="Second slide"
                 />
 
-                <Carousel.Caption className="position-absolute start-0 end-50 top-50">
+                <Carousel.Caption className="position-absolute start-0 end-50 bottom-50">
                     <h3 className='h1'>We Provide <br /> Best <span className="highlight">Health</span>care</h3>
                     <p>The other name of health is wealth. <br /> So don't give up caring your health.</p>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
                 <img
-                    className="d-block w-100"
+                    className="d-block img-fluid"
                     src="https://i.ibb.co/QQm0PMs/hero-doctor-1.jpg"
                     alt="Third slide"
                 />
